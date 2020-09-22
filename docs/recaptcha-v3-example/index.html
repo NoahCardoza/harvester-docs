@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="ReCaptcha v2 Example #  This guide shows how to setup the harvester to collect tokens for Google&rsquo;s ReCaptcha v3.
+NOTE: This example assumes you have already unlocked the harvester. For more information
+on that see here
+from harvester import Harvester, ReCaptchaV3 captcha = ReCaptchaV3( url=&#39;https://recaptcha-demo.appspot.com/recaptcha-v3-request-scores.php&#39;, sitekey=&#39;6LdyC2cUAAAAACGuDKpXeDorzUDWXmdqeg-xy696&#39;, action=&#39;examples/v3scores&#39; ) harvester = Harvester().serveforever() intercepter = harvester.capture(captcha) Next, take a look at configuring the browser and getting to the actual harvesting of the captcha tokens here">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="2.2 ReCaptcha v3 Example" />
+<meta property="og:description" content="ReCaptcha v2 Example #  This guide shows how to setup the harvester to collect tokens for Google&rsquo;s ReCaptcha v3.
+NOTE: This example assumes you have already unlocked the harvester. For more information
+on that see here
+from harvester import Harvester, ReCaptchaV3 captcha = ReCaptchaV3( url=&#39;https://recaptcha-demo.appspot.com/recaptcha-v3-request-scores.php&#39;, sitekey=&#39;6LdyC2cUAAAAACGuDKpXeDorzUDWXmdqeg-xy696&#39;, action=&#39;examples/v3scores&#39; ) harvester = Harvester().serveforever() intercepter = harvester.capture(captcha) Next, take a look at configuring the browser and getting to the actual harvesting of the captcha tokens here" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://noahcardoza.github.io/harvester-docs/docs/recaptcha-v3-example/" />
+
+<title>2.2 ReCaptcha v3 Example | Harvester</title>
+<link rel="manifest" href="/harvester-docs/manifest.json">
+<link rel="icon" href="/harvester-docs/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/harvester-docs/book.min.0f40b4e83b0db00d11c595295e7f5f85f51436d20a5b6790534cb30c9f46a201.css" integrity="sha256-D0C06DsNsA0RxZUpXn9fhfUUNtIKW2eQU0yzDJ9GogE=">
+<script defer src="/harvester-docs/en.search.min.246f8a1b2d13a1f3b81ce3a776fee1165f9d161b720c914414265e935888c7ce.js" integrity="sha256-JG&#43;KGy0TofO4HOOndv7hFl&#43;dFhtyDJFEFCZek1iIx84="></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-176436032-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/harvester-docs"><span>Harvester</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://noahcardoza.github.io/harvester-docs/docs/unlocking-the-harvester/" class="">1 Unlocking The Harvester</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://noahcardoza.github.io/harvester-docs/docs/recaptcha-v2-example/" class="">2.1 ReCaptcha v2 Example</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://noahcardoza.github.io/harvester-docs/docs/recaptcha-v3-example/" class=" active">2.2 ReCaptcha v3 Example</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://noahcardoza.github.io/harvester-docs/docs/hcaptcha-example/" class="">2.3 hCaptcha Example</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://noahcardoza.github.io/harvester-docs/docs/opening-the-browser/" class="">3 Opening The Browser</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://noahcardoza.github.io/harvester-docs/docs/accessing-the-tokens/" class="">4 Accessing The Tokens</a>
+  
+
+        </li>
+      
+    
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/harvester-docs/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>2.2 ReCaptcha v3 Example</strong>
+
+  <label for="toc-control">
+    
+    <img src="/harvester-docs/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav id="TableOfContents"></nav>
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="recaptcha-v2-example">
+  ReCaptcha v2 Example
+  <a class="anchor" href="#recaptcha-v2-example">#</a>
+</h1>
+<p>This guide shows how to setup the harvester to collect tokens for Google&rsquo;s ReCaptcha v3.</p>
+<p><strong>NOTE</strong>: This example assumes you have already unlocked the harvester. For more information<br>
+on that see <a href="/docs/unlocking-the-harvester">here</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">from</span> harvester <span style="color:#f92672">import</span> Harvester, ReCaptchaV3
+
+captcha <span style="color:#f92672">=</span> ReCaptchaV3(
+    url<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;https://recaptcha-demo.appspot.com/recaptcha-v3-request-scores.php&#39;</span>,
+    sitekey<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;6LdyC2cUAAAAACGuDKpXeDorzUDWXmdqeg-xy696&#39;</span>,
+    action<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;examples/v3scores&#39;</span>
+)
+
+harvester <span style="color:#f92672">=</span> Harvester()<span style="color:#f92672">.</span>serveforever()
+intercepter <span style="color:#f92672">=</span> harvester<span style="color:#f92672">.</span>capture(captcha)
+</code></pre></div><p>Next, take a look at configuring the browser and getting to the actual harvesting of the captcha tokens <a href="/docs/opening-the-browser">here</a></p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents"></nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
