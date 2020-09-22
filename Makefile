@@ -1,4 +1,4 @@
-.PHONY: build
+.PHONY: build upload
 
 build:
 	mkdir -p build/content
@@ -6,4 +6,5 @@ build:
 	pydoc-markdown --build
 	cd build; hugo --baseURL https://noahcardoza.github.io/harvester-docs/
 	
-	
+upload:
+	git subtree push --prefix build/public origin gh-pages
