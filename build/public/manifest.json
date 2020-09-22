@@ -1,0 +1,15 @@
+{
+  "name": "Harvester",
+  "short_name": "Harvester",
+  "start_url": "/harvester-docs/",
+  "scope": "/harvester-docs/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/harvester-docs/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}

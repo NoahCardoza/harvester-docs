@@ -1,0 +1,12 @@
+googleAnalytics = "UA-176436032-3"
+languageCode = "en-us"
+title = "Harvester"
+theme = "book"
+
+[params]
+BookTheme = "dark"
+
+[markup.goldmark.renderer]
+hardWraps = true
+unsafe = true
+xhtml = false
