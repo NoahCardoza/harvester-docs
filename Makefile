@@ -6,5 +6,5 @@ build:
 	pydoc-markdown --build
 	cd build; hugo --baseURL https://noahcardoza.github.io/harvester-docs/
 	
-upload:
+publish:
 	git subtree push --prefix build/public origin gh-pages
