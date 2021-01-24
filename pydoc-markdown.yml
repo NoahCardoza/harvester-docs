@@ -1,18 +1,22 @@
 loaders:
   - type: python
     search_path: 
-      - codebase/harvester
-    ignore_when_discovered: 
-      - libs
-      - utils
-      - server
-processors:
-  - type: filter
-    documented_only: true
-    skip_empty_modules: true
-  - type: 'google'
-  - type: smart
-  - type: crossref
+      - ../codebase/harvester/
+    modules:
+      - main
+      - intercepter
+      - queue
+      - htypes
+      - browser
+      - browser.proxy
+    processors:
+      - type: filter
+        documented_only: true
+        skip_empty_modules: true
+      - type: 'google'
+      - type: smart
+      - type: crossref
+
 renderer:
   type: hugo
   build_directory: build
@@ -20,55 +24,47 @@ renderer:
     escape_html_in_docstring: false
     render_module_header: false
     descriptive_class_title: false
-    # render_module_header_template: false
+    header_level_by_type:
+      Function: 2
+
   config:
     title: Harvester
     theme: {clone_url: "https://github.com/alex-shpak/hugo-book.git"}
-    googleAnalytics:  "UA-176436032-3"
     params:
-        BookTheme: dark
+      BookTheme: dark
     markup:
       goldmark:
-        # extensions:
-        #   definitionList: true
-        #   footnote: true
-        #   linkify: true
-        #   strikethrough: true
-        #   table: true
-        #   taskList: true
-        #   typographer: true
-        # parser:
-        #   attribute: true
-        #   autoHeadingID: true
-        #   autoHeadingIDType: github
         renderer:
           hardWraps: true
           unsafe: true
           xhtml: false
-
+  
   # The "book" theme only renders pages in "content/docs" into the nav.
   content_directory: content/docs
-  default_preamble: {menu: main}
+  default_preamble: { menu: main }
   pages:
     - title: Index
       name: index
       source: pages/index.md
+      directory: '..'
 
     - title: 1 Unlocking The Harvester
       name: Unlocking The Harvester
       source: pages/unlocking-the-harvester.md
 
-    - title: 2.1 ReCaptcha v2 Example
-      name: ReCaptcha v2 Example
-      source: pages/recaptcha-v2-example.md
+    - title: 2 Supported Captchas
+      children:
+        - title: 1 ReCaptcha v2 Example
+          name: ReCaptcha v2 Example
+          source: pages/recaptcha-v2-example.md
 
-    - title: 2.2 ReCaptcha v3 Example
-      name: ReCaptcha v3 Example
-      source: pages/recaptcha-v3-example.md
+        - title: 2 ReCaptcha v3 Example
+          name: ReCaptcha v3 Example
+          source: pages/recaptcha-v3-example.md
 
-    - title: 2.3 hCaptcha Example
-      name: hCaptcha Example
-      source: pages/hcaptcha-example.md
+        - title: 3 hCaptcha Example
+          name: hCaptcha Example
+          source: pages/hcaptcha-example.md
 
     - title: 3 Opening The Browser
       name: opening-the-browser
