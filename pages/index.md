@@ -1,6 +1,3 @@
----
----
-
 <div style="width:100%;background: white;border-radius: 3rem">
   <p align="center">
     <img src="https://github.com/NoahCardoza/CaptchaHarvester/blob/master/logo.png?raw=true">
