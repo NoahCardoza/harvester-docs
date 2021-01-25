@@ -1,9 +1,10 @@
-md5 2b9b1709ddacb75a865f5e2a995635bc content/docs/_index.md
+md5 93f45c49478e17f878692c6fc1b2bb6e content/_index.md
 md5 8ee11c08c3982b738939b2a5f5a15d5f "content/docs/Unlocking The Harvester.md"
-md5 cfab8dda55c185f4c8aa041314dd2b17 "content/docs/ReCaptcha v2 Example.md"
-md5 279f6a33e1950bfd43359a58fd637030 "content/docs/ReCaptcha v3 Example.md"
-md5 cee1b710733609077bb9617726618e30 "content/docs/hCaptcha Example.md"
+md5 709ab95cfbcb8561dc19057dc2ef24f8 content/docs/2-supported-captchas/_index.md
+md5 44ca4ecda5f0664876d91bce2f9e4f1e "content/docs/2-supported-captchas/ReCaptcha v2 Example.md"
+md5 76f90619252d48ea0e565771b0f82062 "content/docs/2-supported-captchas/ReCaptcha v3 Example.md"
+md5 866b0f14ac92f5cc6d575ecef5bace5c "content/docs/2-supported-captchas/hCaptcha Example.md"
 md5 bf0503b45ee5f8c2950e54c3e7344da2 content/docs/opening-the-browser.md
 md5 6b1931e7833517ac8042ea41ba6fb72b content/docs/accessing-the-tokens.md
-md5 20d978cccb318a1f68766a06b969ea94 content/docs/5-api-documentation.md
-md5 6dda4925b2908de6b447469dde93fe85 config.toml
+md5 a0b54249c74076a47873bd8b8c1dd51e content/docs/5-api-documentation.md
+md5 adb8324f52e4ce6f7201c1de166f7e79 config.toml

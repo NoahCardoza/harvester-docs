@@ -1,4 +1,6 @@
 ---
+menu: main
+title: Index
 ---
 
 <div style="width:100%;background: white;border-radius: 3rem">
