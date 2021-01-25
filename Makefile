@@ -14,4 +14,6 @@ build:
 	hugo --source build --baseURL https://noahcardoza.github.io/harvester-docs/
 	
 publish:
+	git branch gh-pages --delete
+	git branch gh-pages
 	git subtree push --prefix build/public origin gh-pages
