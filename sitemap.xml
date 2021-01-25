@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://noahcardoza.github.io/harvester-docs/</loc>
+    <loc>https://noahcardoza.github.io/harvester-docs/docs/2-supported-captchas/recaptcha-v2-example/</loc>
   </url>
   
   <url>
@@ -11,15 +11,15 @@
   </url>
   
   <url>
-    <loc>https://noahcardoza.github.io/harvester-docs/docs/recaptcha-v2-example/</loc>
+    <loc>https://noahcardoza.github.io/harvester-docs/docs/2-supported-captchas/recaptcha-v3-example/</loc>
   </url>
   
   <url>
-    <loc>https://noahcardoza.github.io/harvester-docs/docs/recaptcha-v3-example/</loc>
+    <loc>https://noahcardoza.github.io/harvester-docs/docs/2-supported-captchas/</loc>
   </url>
   
   <url>
-    <loc>https://noahcardoza.github.io/harvester-docs/docs/hcaptcha-example/</loc>
+    <loc>https://noahcardoza.github.io/harvester-docs/docs/2-supported-captchas/hcaptcha-example/</loc>
   </url>
   
   <url>
@@ -40,6 +40,10 @@
   
   <url>
     <loc>https://noahcardoza.github.io/harvester-docs/docs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://noahcardoza.github.io/harvester-docs/</loc>
   </url>
   
   <url>
