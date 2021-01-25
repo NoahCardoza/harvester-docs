@@ -1,4 +1,4 @@
-# ReCaptcha v2 Example
+# hCaptchas Example
 
 This guide shows how to setup the harvester to collect tokens for hCaptchas.
 

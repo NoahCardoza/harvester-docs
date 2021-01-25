@@ -48,32 +48,36 @@ renderer:
       source: pages/index.md
       directory: '..'
 
-    - title: 1 Unlocking The Harvester
-      name: Unlocking The Harvester
-      source: pages/unlocking-the-harvester.md
+    - title: 1 Getting Started
+      # name: Unlocking The Harvester
+      source: pages/getting-started.md
 
     - title: 2 Supported Captchas
       children:
         - title: 1 ReCaptcha v2 Example
-          name: ReCaptcha v2 Example
+          # name: ReCaptcha v2 Example
           source: pages/recaptcha-v2-example.md
 
         - title: 2 ReCaptcha v3 Example
-          name: ReCaptcha v3 Example
+          # name: ReCaptcha v3 Example
           source: pages/recaptcha-v3-example.md
 
         - title: 3 hCaptcha Example
-          name: hCaptcha Example
+          # name: hCaptcha Example
           source: pages/hcaptcha-example.md
 
     - title: 3 Opening The Browser
-      name: opening-the-browser
+      # name: opening-the-browser
       source: pages/opening-the-browser.md
 
     - title: 4 Accessing The Tokens
-      name: accessing-the-tokens
+      # name: accessing-the-tokens
       source: pages/accessing-the-tokens.md
 
     - title: 5 API Documentation
       contents:
         - '*'
+    
+    - title: 6 Pricing
+      # name: accessing-the-tokens
+      source: pages/pricing.md

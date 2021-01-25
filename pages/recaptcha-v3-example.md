@@ -1,4 +1,4 @@
-# ReCaptcha v2 Example
+# ReCaptcha v3 Example
 
 This guide shows how to setup the harvester to collect tokens for Google's ReCaptcha v3.
 
