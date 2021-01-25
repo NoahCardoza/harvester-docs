@@ -5,23 +5,23 @@
   <meta name="generator" content="Hugo 0.78.0" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="ReCaptcha v2 Example #  This guide shows how to setup the harvester to collect tokens for hCaptchas.
+<meta name="description" content="ReCaptcha v2 Example #  This guide shows how to setup the harvester to collect tokens for Google&rsquo;s ReCaptcha v2.
 NOTE: This example assumes you have already unlocked the harvester. For more information
 on that see here
-from harvester import Harvester, hCaptcha captcha = hCaptcha( url=&#39;www.sotostore.com&#39;, sitekey=&#39;33f96e6a-38cd-421b-bb68-7806e1764460&#39; ) harvester = Harvester().serveforever() intercepter = harvester.capture(captcha) Next, take a look at configuring the browser and getting to the actual harvesting of the captcha tokens here">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="3 hCaptcha Example" />
-<meta property="og:description" content="ReCaptcha v2 Example #  This guide shows how to setup the harvester to collect tokens for hCaptchas.
+from harvester import Harvester, ReCaptchaV2 captcha = ReCaptchaV2( url=&#39;www.supremenewyork.com&#39;, sitekey=&#39;6LeWwRkUAAAAAOBsau7KpuC9AV-6J8mhw4AjC3Xz&#39; ) harvester = Harvester().serveforever() intercepter = harvester.capture(captcha) Next, take a look at configuring the browser and getting to the actual harvesting of the captcha tokens here">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="1 ReCaptcha v2 Example" />
+<meta property="og:description" content="ReCaptcha v2 Example #  This guide shows how to setup the harvester to collect tokens for Google&rsquo;s ReCaptcha v2.
 NOTE: This example assumes you have already unlocked the harvester. For more information
 on that see here
-from harvester import Harvester, hCaptcha captcha = hCaptcha( url=&#39;www.sotostore.com&#39;, sitekey=&#39;33f96e6a-38cd-421b-bb68-7806e1764460&#39; ) harvester = Harvester().serveforever() intercepter = harvester.capture(captcha) Next, take a look at configuring the browser and getting to the actual harvesting of the captcha tokens here" />
+from harvester import Harvester, ReCaptchaV2 captcha = ReCaptchaV2( url=&#39;www.supremenewyork.com&#39;, sitekey=&#39;6LeWwRkUAAAAAOBsau7KpuC9AV-6J8mhw4AjC3Xz&#39; ) harvester = Harvester().serveforever() intercepter = harvester.capture(captcha) Next, take a look at configuring the browser and getting to the actual harvesting of the captcha tokens here" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://noahcardoza.github.io/harvester-docs/docs/2-supported-captchas/hcaptcha-example/" />
+<meta property="og:url" content="https://noahcardoza.github.io/harvester-docs/docs/2-supported-captchas/1-recaptcha-v2-example/" />
 
-<title>3 hCaptcha Example | Harvester</title>
+<title>1 ReCaptcha v2 Example | Harvester</title>
 <link rel="manifest" href="/harvester-docs/manifest.json">
 <link rel="icon" href="/harvester-docs/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/harvester-docs/book.min.0f40b4e83b0db00d11c595295e7f5f85f51436d20a5b6790534cb30c9f46a201.css" integrity="sha256-D0C06DsNsA0RxZUpXn9fhfUUNtIKW2eQU0yzDJ9GogE=">
-<script defer src="/harvester-docs/en.search.min.6b7e134c2c7f00701ab122d750aa7d89a90514d9ffe9ada6c3e5ecdefd59352c.js" integrity="sha256-a34TTCx/AHAasSLXUKp9iakFFNn/6a2mw&#43;Xs3v1ZNSw="></script>
+<script defer src="/harvester-docs/en.search.min.d880c3a59ab84c08da3927a25e4fb1e65f436081e7497ecc15804aedd33827d5.js" integrity="sha256-2IDDpZq4TAjaOSeiXk&#43;x5l9DYIHnSX7MFYBK7dM4J9U="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -73,7 +73,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://noahcardoza.github.io/harvester-docs/docs/unlocking-the-harvester/" class="">1 Unlocking The Harvester</a>
+    <a href="https://noahcardoza.github.io/harvester-docs/docs/1-getting-started/" class="">1 Getting Started</a>
   
 
         </li>
@@ -99,7 +99,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://noahcardoza.github.io/harvester-docs/docs/2-supported-captchas/recaptcha-v2-example/" class="">1 ReCaptcha v2 Example</a>
+    <a href="https://noahcardoza.github.io/harvester-docs/docs/2-supported-captchas/1-recaptcha-v2-example/" class=" active">1 ReCaptcha v2 Example</a>
   
 
         </li>
@@ -112,7 +112,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://noahcardoza.github.io/harvester-docs/docs/2-supported-captchas/recaptcha-v3-example/" class="">2 ReCaptcha v3 Example</a>
+    <a href="https://noahcardoza.github.io/harvester-docs/docs/2-supported-captchas/2-recaptcha-v3-example/" class="">2 ReCaptcha v3 Example</a>
   
 
         </li>
@@ -125,7 +125,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://noahcardoza.github.io/harvester-docs/docs/2-supported-captchas/hcaptcha-example/" class=" active">3 hCaptcha Example</a>
+    <a href="https://noahcardoza.github.io/harvester-docs/docs/2-supported-captchas/3-hcaptcha-example/" class="">3 hCaptcha Example</a>
   
 
         </li>
@@ -143,7 +143,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://noahcardoza.github.io/harvester-docs/docs/opening-the-browser/" class="">3 Opening The Browser</a>
+    <a href="https://noahcardoza.github.io/harvester-docs/docs/3-opening-the-browser/" class="">3 Opening The Browser</a>
   
 
         </li>
@@ -156,7 +156,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://noahcardoza.github.io/harvester-docs/docs/accessing-the-tokens/" class="">4 Accessing The Tokens</a>
+    <a href="https://noahcardoza.github.io/harvester-docs/docs/4-accessing-the-tokens/" class="">4 Accessing The Tokens</a>
   
 
         </li>
@@ -170,6 +170,19 @@ https://github.com/alex-shpak/hugo-book
 
   
     <a href="https://noahcardoza.github.io/harvester-docs/docs/5-api-documentation/" class="">5 API Documentation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://noahcardoza.github.io/harvester-docs/docs/6-pricing/" class="">6 Pricing</a>
   
 
         </li>
@@ -210,7 +223,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/harvester-docs/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>3 hCaptcha Example</strong>
+  <strong>1 ReCaptcha v2 Example</strong>
 
   <label for="toc-control">
     
@@ -237,14 +250,14 @@ https://github.com/alex-shpak/hugo-book
   ReCaptcha v2 Example
   <a class="anchor" href="#recaptcha-v2-example">#</a>
 </h1>
-<p>This guide shows how to setup the harvester to collect tokens for hCaptchas.</p>
+<p>This guide shows how to setup the harvester to collect tokens for Google&rsquo;s ReCaptcha v2.</p>
 <p><strong>NOTE</strong>: This example assumes you have already unlocked the harvester. For more information<br>
 on that see <a href="/docs/unlocking-the-harvester">here</a></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">from</span> harvester <span style="color:#f92672">import</span> Harvester, hCaptcha
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">from</span> harvester <span style="color:#f92672">import</span> Harvester, ReCaptchaV2
 
-captcha <span style="color:#f92672">=</span> hCaptcha(
-    url<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;www.sotostore.com&#39;</span>,
-    sitekey<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;33f96e6a-38cd-421b-bb68-7806e1764460&#39;</span>
+captcha <span style="color:#f92672">=</span> ReCaptchaV2(
+    url<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;www.supremenewyork.com&#39;</span>,
+    sitekey<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;6LeWwRkUAAAAAOBsau7KpuC9AV-6J8mhw4AjC3Xz&#39;</span>
 )
 
 harvester <span style="color:#f92672">=</span> Harvester()<span style="color:#f92672">.</span>serveforever()

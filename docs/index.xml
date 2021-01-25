@@ -7,24 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://noahcardoza.github.io/harvester-docs/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>1 Unlocking The Harvester</title>
-      <link>https://noahcardoza.github.io/harvester-docs/docs/unlocking-the-harvester/</link>
+      <title>1 Getting Started</title>
+      <link>https://noahcardoza.github.io/harvester-docs/docs/1-getting-started/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://noahcardoza.github.io/harvester-docs/docs/unlocking-the-harvester/</guid>
-      <description>Unlocking The Harvester #  When you recive the harvester zipfile, within in the file you&amp;rsquo;ll find a licence.key file.
-This will be a string that should look something like this f4b038a5-110d-4f34-8e9b-afdb2090ba82.
-To access the full power of the harvester you&amp;rsquo;ll have to first import the unlock function and
-proceed as so:
-import harvester err = harvester.unlock(&amp;#39;f4b038a5-110d-4f34-8e9b-afdb2090ba82&amp;#39;) if err: raise RuntimeError(err) from harvester import Harvester, ReCaptchaV2 In addition to validating the licence key, calling unlock will also</description>
+      <guid>https://noahcardoza.github.io/harvester-docs/docs/1-getting-started/</guid>
+      <description>Getting Started #  Where to get a copy #  Right now the harvester is in active beta. To git a copy, you must fill out this Google Form.
+It&amp;rsquo;s also a good idea to send me a message on Discord (@MacHacker#7322) just in
+case I forgoet to check over the form responses.
+While you wait, if you plan to purchase a copy, you can fill out this Google Form</description>
     </item>
     
     <item>
       <title>3 Opening The Browser</title>
-      <link>https://noahcardoza.github.io/harvester-docs/docs/opening-the-browser/</link>
+      <link>https://noahcardoza.github.io/harvester-docs/docs/3-opening-the-browser/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://noahcardoza.github.io/harvester-docs/docs/opening-the-browser/</guid>
+      <guid>https://noahcardoza.github.io/harvester-docs/docs/3-opening-the-browser/</guid>
       <description>Opening The Browser #  This guide shows you how to launch a browser instance after getting an intercepter
 instance back from harvester.capture.
 Quick Recap #  We&amp;rsquo;ll be using a ReCaptchaV2 in this example, but you are able to pass any of the
@@ -34,10 +33,10 @@ from harvester import Harvester, ReCaptchaV2 captcha = ReCaptchaV2( url=&amp;#39
     
     <item>
       <title>4 Accessing The Tokens</title>
-      <link>https://noahcardoza.github.io/harvester-docs/docs/accessing-the-tokens/</link>
+      <link>https://noahcardoza.github.io/harvester-docs/docs/4-accessing-the-tokens/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://noahcardoza.github.io/harvester-docs/docs/accessing-the-tokens/</guid>
+      <guid>https://noahcardoza.github.io/harvester-docs/docs/4-accessing-the-tokens/</guid>
       <description>Accessing The Tokens #  This guide shows you how to request tokens after launching a browser window.
 While this can be done before launching a browser, it wouldn&amp;rsquo;t make much
 sense since there would be no way for the user to solve the captchas.
@@ -56,6 +55,15 @@ Normally, you&amp;rsquo;ll only need to instanciate this once within
 your code.
 Arguments:
  host str, optional - The address you want to bind to. Defaults to &amp;lsquo;127.0.0.1&amp;rsquo;. port int, optional - The port you want to listen on. Defaults to 5000. do_not_track bool, optional - Disables the analytics tracking. Not recomended. Defaults to False.</description>
+    </item>
+    
+    <item>
+      <title>6 Pricing</title>
+      <link>https://noahcardoza.github.io/harvester-docs/docs/6-pricing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://noahcardoza.github.io/harvester-docs/docs/6-pricing/</guid>
+      <description>Pricing #  Overview #  It took a while to figure out how to farly price the harvester since it&amp;rsquo;s meant to be redistributed within bots of which many of allow binding/unbinding to different machines as long as there is only one instance of the bot running at a time. Because of this, I decided not to charge by the number of unique hardware addresses, but rather session ids.</description>
     </item>
     
   </channel>
