@@ -1,19 +1,16 @@
 .PHONY: build upload test
 
-test:
-	mkdir -p build/content
-	cp pages/index.md build/content/_index.md
-	pydoc-markdown --build --site-dir build
-	cd build; hugo
+dev-build:
+	nodemon -e "md yml" -w pydoc-markdown.yml -w pages --exec pydoc-markdown --build --site-dir build
+
+dev-server:
+	hugo server --source build --watch --baseURL http://localhost:1313/harvester-docs --port 1313 --bind 127.0.0.1
 
 build:
-	# cp pages/index.md build/content/_index.md
-	# pydoc-markdown --build --site-dir build
-	# cd build; hugo --baseURL https://noahcardoza.github.io/harvester-docs/
 	pydoc-markdown --build --site-dir build
 	hugo --source build --baseURL https://noahcardoza.github.io/harvester-docs/
 	
-publish:
-	git branch gh-pages --delete
-	git branch gh-pages
-	git subtree push --prefix build/public origin gh-pages
+publish: build
+	git add build
+	git commit -m "rebuilt docs"
+	git push origin `git subtree split --prefix build/public master`:gh-pages --force
