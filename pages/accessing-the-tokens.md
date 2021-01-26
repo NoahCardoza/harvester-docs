@@ -1,6 +1,6 @@
 # Accessing The Tokens
 
-This guide shows you how to request tokens after [launching a browser window](/docs/opening-the-browser).
+This guide shows you how to request tokens after [launching a browser window](/harvester-docs/docs/opening-the-browser).
 
 While this can be done before launching a browser, it wouldn't make much
 sense since there would be no way for the user to solve the captchas.

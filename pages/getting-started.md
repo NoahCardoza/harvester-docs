@@ -1,4 +1,3 @@
-
 # Getting Started
 
 ## Where to get a copy
