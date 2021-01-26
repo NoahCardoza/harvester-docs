@@ -1,6 +1,7 @@
 ---
 menu: main
-title: 5 API Documentation
+title: API Documentation
+weight: 5
 ---
 
 <a name="main.Harvester"></a>

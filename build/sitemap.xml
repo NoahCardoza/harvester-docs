@@ -3,39 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/docs/1-getting-started/</loc>
+    <loc>/docs/getting-started/</loc>
   </url>
   
   <url>
-    <loc>/docs/2-supported-captchas/1-recaptcha-v2-example/</loc>
+    <loc>/docs/supported-captchas/recaptcha-v2/</loc>
   </url>
   
   <url>
-    <loc>/docs/2-supported-captchas/2-recaptcha-v3-example/</loc>
+    <loc>/docs/supported-captchas/recaptcha-v3/</loc>
   </url>
   
   <url>
-    <loc>/docs/2-supported-captchas/</loc>
+    <loc>/docs/supported-captchas/</loc>
   </url>
   
   <url>
-    <loc>/docs/2-supported-captchas/3-hcaptcha-example/</loc>
+    <loc>/docs/supported-captchas/hcaptcha/</loc>
   </url>
   
   <url>
-    <loc>/docs/3-opening-the-browser/</loc>
+    <loc>/docs/opening-the-browser/</loc>
   </url>
   
   <url>
-    <loc>/docs/4-accessing-the-tokens/</loc>
+    <loc>/docs/accessing-the-tokens/</loc>
   </url>
   
   <url>
-    <loc>/docs/5-api-documentation/</loc>
+    <loc>/docs/api-documentation/</loc>
   </url>
   
   <url>
-    <loc>/docs/6-pricing/</loc>
+    <loc>/docs/pricing/</loc>
   </url>
   
   <url>

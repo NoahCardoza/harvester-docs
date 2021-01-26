@@ -1,6 +1,7 @@
 ---
 menu: main
-title: 3 Opening The Browser
+title: Opening The Browser
+weight: 3
 ---
 
 # Opening The Browser

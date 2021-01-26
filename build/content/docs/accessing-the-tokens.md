@@ -1,6 +1,7 @@
 ---
 menu: main
-title: 4 Accessing The Tokens
+title: Accessing The Tokens
+weight: 4
 ---
 
 # Accessing The Tokens

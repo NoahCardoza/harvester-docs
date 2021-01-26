@@ -1,8 +1,8 @@
 ---
 menu: main
-title: 1 Getting Started
+title: Getting Started
+weight: 1
 ---
-
 
 # Getting Started
 

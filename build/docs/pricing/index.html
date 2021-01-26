@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta name="generator" content="Hugo 0.78.0" />
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Pricing #  Overview #  It took a while to figure out how to farly price the harvester since it&rsquo;s meant to be redistributed within bots of which many of allow binding/unbinding to different machines as long as there is only one instance of the bot running at a time. Because of this, I decided not to charge by the number of unique hardware addresses, but rather session ids.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Pricing" />
+<meta property="og:description" content="Pricing #  Overview #  It took a while to figure out how to farly price the harvester since it&rsquo;s meant to be redistributed within bots of which many of allow binding/unbinding to different machines as long as there is only one instance of the bot running at a time. Because of this, I decided not to charge by the number of unique hardware addresses, but rather session ids." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/docs/pricing/" />
+
+<title>Pricing | Harvester</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.0f40b4e83b0db00d11c595295e7f5f85f51436d20a5b6790534cb30c9f46a201.css" integrity="sha256-D0C06DsNsA0RxZUpXn9fhfUUNtIKW2eQU0yzDJ9GogE=">
+<script defer src="/en.search.min.8e15745f6bca39e8fe9a561a926bb6cc6c508ccee0c6a6cb13bdcc0bd7316d85.js" integrity="sha256-jhV0X2vKOej&#43;mlYakmu2zGxQjM7gxqbLE73MC9cxbYU="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>Harvester</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/getting-started/" class="">Getting Started</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span>Supported Captchas</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/supported-captchas/recaptcha-v2/" class="">ReCaptcha v2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/supported-captchas/recaptcha-v3/" class="">ReCaptcha v3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/supported-captchas/hcaptcha/" class="">hCaptcha</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/opening-the-browser/" class="">Opening The Browser</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/accessing-the-tokens/" class="">Accessing The Tokens</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/api-documentation/" class="">API Documentation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/pricing/" class=" active">Pricing</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Pricing</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#scale">Scale</a></li>
+    <li><a href="#payment">Payment</a></li>
+  </ul>
+</nav>
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="pricing">
+  Pricing
+  <a class="anchor" href="#pricing">#</a>
+</h1>
+<h2 id="overview">
+  Overview
+  <a class="anchor" href="#overview">#</a>
+</h2>
+<p>It took a while to figure out how to farly price the harvester since it&rsquo;s meant to be redistributed within bots of which many of allow binding/unbinding to different machines as long as there is only one instance of the bot running at a time. Because of this, I decided not to charge by the number of unique hardware addresses, but rather session ids.</p>
+<p>If this is an issue, I am open to discusssing other options.</p>
+<h2 id="scale">
+  Scale
+  <a class="anchor" href="#scale">#</a>
+</h2>
+<p>I&rsquo;ve based the price per unique session id off this function:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">calculate_invoice</span>(unique_sessions):
+    price_per_session <span style="color:#f92672">=</span> max(
+        <span style="color:#ae81ff">122.75</span> <span style="color:#f92672">/</span> (unique_sessions <span style="color:#f92672">+</span> <span style="color:#ae81ff">22.75</span>)
+        <span style="color:#66d9ef">if</span> unique_sessions <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">100</span> <span style="color:#66d9ef">else</span>
+        <span style="color:#ae81ff">50</span> <span style="color:#f92672">/</span> unique_sessions <span style="color:#f92672">+</span> <span style="color:#f92672">.</span><span style="color:#ae81ff">5</span>,
+        <span style="color:#f92672">.</span><span style="color:#ae81ff">5</span>
+    )
+    <span style="color:#66d9ef">return</span> round(price_per_session <span style="color:#f92672">*</span> unique_sessions)
+</code></pre></div><p>Here are a few common user base sizes to get a sense of how this function<br>
+preforms in the real world:</p>
+<table>
+<thead>
+<tr>
+<th>Unique Sessions</th>
+<th>Price (Month)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>$5</td>
+</tr>
+<tr>
+<td>30</td>
+<td>$70</td>
+</tr>
+<tr>
+<td>50</td>
+<td>$84</td>
+</tr>
+<tr>
+<td>80</td>
+<td>$96</td>
+</tr>
+<tr>
+<td>100</td>
+<td>$100</td>
+</tr>
+<tr>
+<td>200</td>
+<td>$150</td>
+</tr>
+</tbody>
+</table>
+<h2 id="payment">
+  Payment
+  <a class="anchor" href="#payment">#</a>
+</h2>
+<p>I&rsquo;m hopping to setup something with stripe at some point, but for now I&rsquo;ll just be sending invoices<br>
+at the end of the month. You&rsquo;ll have 3 business days to pay after which I&rsquo;ll be forced to revoke<br>
+access to the liceseing server until payment is recived.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#scale">Scale</a></li>
+    <li><a href="#payment">Payment</a></li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

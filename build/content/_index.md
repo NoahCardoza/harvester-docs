@@ -1,6 +1,6 @@
 ---
 menu: main
-title: Index
+title: Harvester V3 | Documentation
 ---
 
 <div style="width:100%;background: white;border-radius: 3rem">

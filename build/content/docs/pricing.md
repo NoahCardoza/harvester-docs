@@ -1,6 +1,7 @@
 ---
 menu: main
-title: 6 Pricing
+title: Pricing
+weight: 6
 ---
 
 

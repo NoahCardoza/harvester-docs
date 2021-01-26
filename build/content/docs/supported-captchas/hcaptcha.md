@@ -1,22 +1,22 @@
 ---
 menu: main
-title: 2 ReCaptcha v3 Example
+title: hCaptcha
+weight: 3
 ---
 
-# ReCaptcha v3 Example
+# hCaptchas Example
 
-This guide shows how to setup the harvester to collect tokens for Google's ReCaptcha v3.
+This guide shows how to setup the harvester to collect tokens for hCaptchas.
 
 **NOTE**: This example assumes you have already unlocked the harvester. For more information
 on that see [here](/docs/unlocking-the-harvester)
 
 ```py
-from harvester import Harvester, ReCaptchaV3
+from harvester import Harvester, hCaptcha
 
-captcha = ReCaptchaV3(
-    url='https://recaptcha-demo.appspot.com/recaptcha-v3-request-scores.php',
-    sitekey='6LdyC2cUAAAAACGuDKpXeDorzUDWXmdqeg-xy696',
-    action='examples/v3scores'
+captcha = hCaptcha(
+    url='www.sotostore.com',
+    sitekey='33f96e6a-38cd-421b-bb68-7806e1764460'
 )
 
 harvester = Harvester().serveforever()

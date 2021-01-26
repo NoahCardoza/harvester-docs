@@ -1,6 +1,7 @@
 ---
 menu: main
-title: 1 ReCaptcha v2 Example
+title: ReCaptcha v2
+weight: 1
 ---
 
 # ReCaptcha v2 Example
