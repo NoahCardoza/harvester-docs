@@ -43,41 +43,54 @@ renderer:
   content_directory: content/docs
   default_preamble: { menu: main }
   pages:
-    - title: Index
+    - title: Harvester V3 | Documentation
       name: index
       source: pages/index.md
       directory: '..'
 
-    - title: 1 Getting Started
-      # name: Unlocking The Harvester
+    - title: Getting Started
       source: pages/getting-started.md
+      preamble:
+        weight: 1
 
-    - title: 2 Supported Captchas
+    - title: Supported Captchas
+      preamble:
+        weight: 2
       children:
-        - title: 1 ReCaptcha v2 Example
-          # name: ReCaptcha v2 Example
+        - title: ReCaptcha v2 
           source: pages/recaptcha-v2-example.md
+          preamble:
+            weight: 1
 
-        - title: 2 ReCaptcha v3 Example
-          # name: ReCaptcha v3 Example
+        - title: ReCaptcha v3 
           source: pages/recaptcha-v3-example.md
+          preamble:
+            weight: 2
 
-        - title: 3 hCaptcha Example
-          # name: hCaptcha Example
+        - title: hCaptcha 
           source: pages/hcaptcha-example.md
+          preamble:
+            weight: 3
 
-    - title: 3 Opening The Browser
-      # name: opening-the-browser
+    - title: Opening The Browser
       source: pages/opening-the-browser.md
+      preamble:
+        weight: 3
 
-    - title: 4 Accessing The Tokens
+    - title: Accessing The Tokens
       # name: accessing-the-tokens
       source: pages/accessing-the-tokens.md
+      preamble:
+        weight: 4
 
-    - title: 5 API Documentation
+    - title: API Documentation
       contents:
         - '*'
+      preamble:
+        weight: 5
     
-    - title: 6 Pricing
+    - title: Pricing
       # name: accessing-the-tokens
       source: pages/pricing.md
+      preamble:
+        weight: 6
