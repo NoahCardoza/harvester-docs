@@ -13,8 +13,6 @@
       
       <guid>https://noahcardoza.github.io/harvester-docs/docs/supported-captchas/recaptcha-v2/</guid>
       <description>ReCaptcha v2 Example #  This guide shows how to setup the harvester to collect tokens for Google&amp;rsquo;s ReCaptcha v2.
-NOTE: This example assumes you have already unlocked the harvester. For more information
-on that see here
 from harvester import Harvester, ReCaptchaV2 captcha = ReCaptchaV2( url=&amp;#39;www.supremenewyork.com&amp;#39;, sitekey=&amp;#39;6LeWwRkUAAAAAOBsau7KpuC9AV-6J8mhw4AjC3Xz&amp;#39; ) harvester = Harvester().serveforever() intercepter = harvester.capture(captcha) Next, take a look at configuring the browser and getting to the actual harvesting of the captcha tokens here</description>
     </item>
     
@@ -25,8 +23,6 @@ from harvester import Harvester, ReCaptchaV2 captcha = ReCaptchaV2( url=&amp;#39
       
       <guid>https://noahcardoza.github.io/harvester-docs/docs/supported-captchas/recaptcha-v3/</guid>
       <description>ReCaptcha v3 Example #  This guide shows how to setup the harvester to collect tokens for Google&amp;rsquo;s ReCaptcha v3.
-NOTE: This example assumes you have already unlocked the harvester. For more information
-on that see here
 from harvester import Harvester, ReCaptchaV3 captcha = ReCaptchaV3( url=&amp;#39;https://recaptcha-demo.appspot.com/recaptcha-v3-request-scores.php&amp;#39;, sitekey=&amp;#39;6LdyC2cUAAAAACGuDKpXeDorzUDWXmdqeg-xy696&amp;#39;, action=&amp;#39;examples/v3scores&amp;#39; ) harvester = Harvester().serveforever() intercepter = harvester.capture(captcha) Next, take a look at configuring the browser and getting to the actual harvesting of the captcha tokens here</description>
     </item>
     
@@ -37,8 +33,6 @@ from harvester import Harvester, ReCaptchaV3 captcha = ReCaptchaV3( url=&amp;#39
       
       <guid>https://noahcardoza.github.io/harvester-docs/docs/supported-captchas/hcaptcha/</guid>
       <description>hCaptchas Example #  This guide shows how to setup the harvester to collect tokens for hCaptchas.
-NOTE: This example assumes you have already unlocked the harvester. For more information
-on that see here
 from harvester import Harvester, hCaptcha captcha = hCaptcha( url=&amp;#39;www.sotostore.com&amp;#39;, sitekey=&amp;#39;33f96e6a-38cd-421b-bb68-7806e1764460&amp;#39; ) harvester = Harvester().serveforever() intercepter = harvester.capture(captcha) Next, take a look at configuring the browser and getting to the actual harvesting of the captcha tokens here</description>
     </item>
     

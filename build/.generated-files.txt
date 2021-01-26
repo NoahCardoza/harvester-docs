@@ -1,9 +1,9 @@
-md5 b46d23602cd2f52da4f4417d8ca98a99 content/_index.md
+md5 a9bb5d332a784bc51b60abadfa715008 content/_index.md
 md5 0259bcb8f02ca6a800cecbeaac96f1d1 content/docs/getting-started.md
 md5 7f2775d549aee2902cd3167f2811074c content/docs/supported-captchas/_index.md
-md5 811ca4c9f44ca8239744fc8ea402fd61 content/docs/supported-captchas/recaptcha-v2.md
-md5 44976e6895e60dfe5abdbee559ee1cdf content/docs/supported-captchas/recaptcha-v3.md
-md5 b332611c9b2699b2df72fdcf567e6fe8 content/docs/supported-captchas/hcaptcha.md
+md5 0bd9264c7788cf6944051b5eb7d0640a content/docs/supported-captchas/recaptcha-v2.md
+md5 31d67f3699e49d2dd3a954154d199bd8 content/docs/supported-captchas/recaptcha-v3.md
+md5 f0a5a2856bca2530e806861a8d838966 content/docs/supported-captchas/hcaptcha.md
 md5 b7b2f1f0b708d4ff7bfe325a91afe4aa content/docs/opening-the-browser.md
 md5 50e806ce7d48df118605942dcadf6a31 content/docs/accessing-the-tokens.md
 md5 ed8cc1611afbf428c921a6206d47f9c4 content/docs/api-documentation.md

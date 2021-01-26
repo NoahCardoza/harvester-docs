@@ -8,9 +8,6 @@ weight: 2
 
 This guide shows how to setup the harvester to collect tokens for Google's ReCaptcha v3.
 
-**NOTE**: This example assumes you have already unlocked the harvester. For more information
-on that see [here](/docs/unlocking-the-harvester)
-
 ```py
 from harvester import Harvester, ReCaptchaV3
 

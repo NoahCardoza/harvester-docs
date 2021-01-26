@@ -8,9 +8,6 @@ weight: 3
 
 This guide shows how to setup the harvester to collect tokens for hCaptchas.
 
-**NOTE**: This example assumes you have already unlocked the harvester. For more information
-on that see [here](/docs/unlocking-the-harvester)
-
 ```py
 from harvester import Harvester, hCaptcha
 
