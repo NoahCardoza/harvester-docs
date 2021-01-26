@@ -38,7 +38,7 @@ or join the Discord server by clicking the badge above.
 ## Status
 
 Currently the Harvester has been released under active beta as of `2021/01/21`. If you'd
-like to participate, head [here](/docs/getting-started/#where-to-get-a-copy) to figure out how to get started.
+like to participate, head [here](/harvester-docs/docs/getting-started/#where-to-get-a-copy) to figure out how to get started.
 
 ## Partners
 

@@ -20,4 +20,4 @@ harvester = Harvester().serveforever()
 intercepter = harvester.capture(captcha)
 ```
 
-Next, take a look at configuring the browser and getting to the actual harvesting of the captcha tokens [here](/docs/opening-the-browser)
+Next, take a look at configuring the browser and getting to the actual harvesting of the captcha tokens [here](/harvester-docs/docs/opening-the-browser)

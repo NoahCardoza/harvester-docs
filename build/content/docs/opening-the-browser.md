@@ -9,8 +9,6 @@ weight: 3
 This guide shows you how to launch a browser instance after getting an intercepter
 instance back from `harvester.capture`.
 
-<!-- **NOTE**: This example assumes you have already unlocked the harvester. For more information
-on that see [here](/docs/unlocking-the-harvester) -->
 
 ## Quick Recap
 
@@ -29,7 +27,7 @@ harvester = Harvester().serveforever()
 intercepter = harvester.capture(captcha)
 ```
 
-You'll probaby recognize the code above as being pulled straight from the [ReCaptcha V2 Example](/docs/recaptcha-v2-example/)!
+You'll probaby recognize the code above as being pulled straight from the [ReCaptcha V2 Example](/harvester-docs/docs/recaptcha-v2-example/)!
 
 Now lets get to setting up the browser.
 
@@ -137,4 +135,4 @@ else:
 profile.harvest()
 ```
 
-Finally, we are ready to [access the tokens](/docs/accessing-the-tokens)!
+Finally, we are ready to [access the tokens](/harvester-docs/docs/accessing-the-tokens)!

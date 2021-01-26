@@ -266,8 +266,6 @@ https://github.com/alex-shpak/hugo-book
 </h1>
 <p>This guide shows you how to launch a browser instance after getting an intercepter<br>
 instance back from <code>harvester.capture</code>.</p>
-<!-- **NOTE**: This example assumes you have already unlocked the harvester. For more information
-on that see [here](/docs/unlocking-the-harvester) -->
 <h2 id="quick-recap">
   Quick Recap
   <a class="anchor" href="#quick-recap">#</a>
@@ -283,7 +281,7 @@ captcha <span style="color:#f92672">=</span> ReCaptchaV2(
 
 harvester <span style="color:#f92672">=</span> Harvester()<span style="color:#f92672">.</span>serveforever()
 intercepter <span style="color:#f92672">=</span> harvester<span style="color:#f92672">.</span>capture(captcha)
-</code></pre></div><p>You&rsquo;ll probaby recognize the code above as being pulled straight from the <a href="/docs/recaptcha-v2-example/">ReCaptcha V2 Example</a>!</p>
+</code></pre></div><p>You&rsquo;ll probaby recognize the code above as being pulled straight from the <a href="/harvester-docs/docs/recaptcha-v2-example/">ReCaptcha V2 Example</a>!</p>
 <p>Now lets get to setting up the browser.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">browser <span style="color:#f92672">=</span> intercepter<span style="color:#f92672">.</span>setup_browser(user_data_dir<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;ChromeData&#39;</span>)
 </code></pre></div><p>The code above will return a new <code>Browser</code> instance. Keep in mind that calling<br>
@@ -372,7 +370,7 @@ pass a username and password like:</p>
     profile <span style="color:#f92672">=</span> browser<span style="color:#f92672">.</span>get_profile(<span style="color:#e6db74">&#39;Foo&#39;</span>)<span style="color:#f92672">.</span>set_proxy(proxy)
 
 profile<span style="color:#f92672">.</span>harvest()
-</code></pre></div><p>Finally, we are ready to <a href="/docs/accessing-the-tokens">access the tokens</a>!</p>
+</code></pre></div><p>Finally, we are ready to <a href="/harvester-docs/docs/accessing-the-tokens">access the tokens</a>!</p>
 </article>
  
       

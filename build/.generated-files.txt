@@ -1,11 +1,11 @@
-md5 a9bb5d332a784bc51b60abadfa715008 content/_index.md
+md5 5f8b9c17b92f22b2dcc557a52f9c6f56 content/_index.md
 md5 0259bcb8f02ca6a800cecbeaac96f1d1 content/docs/getting-started.md
 md5 7f2775d549aee2902cd3167f2811074c content/docs/supported-captchas/_index.md
-md5 0bd9264c7788cf6944051b5eb7d0640a content/docs/supported-captchas/recaptcha-v2.md
-md5 31d67f3699e49d2dd3a954154d199bd8 content/docs/supported-captchas/recaptcha-v3.md
-md5 f0a5a2856bca2530e806861a8d838966 content/docs/supported-captchas/hcaptcha.md
-md5 b7b2f1f0b708d4ff7bfe325a91afe4aa content/docs/opening-the-browser.md
-md5 50e806ce7d48df118605942dcadf6a31 content/docs/accessing-the-tokens.md
+md5 194c144287e870a5d0c82f1b40c1e646 content/docs/supported-captchas/recaptcha-v2.md
+md5 e96915cf6c4d9e5e7c1f1cc95a5d7cd1 content/docs/supported-captchas/recaptcha-v3.md
+md5 e2f8e4fbf45cf9f537c01b21f935c278 content/docs/supported-captchas/hcaptcha.md
+md5 254f6b569edb402a6b6f513d26cad275 content/docs/opening-the-browser.md
+md5 90df48403f6c5298eaa5ae0ff9c873f7 content/docs/accessing-the-tokens.md
 md5 ed8cc1611afbf428c921a6206d47f9c4 content/docs/api-documentation.md
 md5 3c8e6de0b61bdf8ed8f4c9398e4439ce content/docs/pricing.md
 md5 adb8324f52e4ce6f7201c1de166f7e79 config.toml
